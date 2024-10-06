@@ -27,7 +27,49 @@
             ini untuk menuju layanan penanganan lanjutan kesehatan mentalmu.
         </div>
         <div class="btn-container">
-            <a href="{{ route('fitur-lain') }}" class="btn">Layanan Penanganan Kesehatan Mental</a>
+            <a href="{{ route('fitur-lain') }}" id="openRatingModal" class="btn">Layanan Penanganan Kesehatan Mental</a>
+        </div>
+    </div>
+
+    <!-- Modal Popup untuk Rating -->
+    <div id="ratingModal" class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h3>Beri Rating</h3>
+          <form
+            action="{{ route('store.rating') }}"
+            method="POST"
+            id="ratingForm"
+          >
+            @csrf
+            <div class="flex-box">
+              <div class="rating-stars">
+                <input type="radio" name="rating" id="star5" value="5" />
+                <label for="star5" class="fa fa-star"></label>
+
+                <input type="radio" name="rating" id="star4" value="4" />
+                <label for="star4" class="fa fa-star"></label>
+
+                <input type="radio" name="rating" id="star3" value="3" />
+                <label for="star3" class="fa fa-star"></label>
+
+                <input type="radio" name="rating" id="star2" value="2" />
+                <label for="star2" class="fa fa-star"></label>
+
+                <input type="radio" name="rating" id="star1" value="1" />
+                <label for="star1" class="fa fa-star"></label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Nama:</label>
+              <input type="text" id="name" name="name" required /><br /><br />
+              <label for="comment">Komentar:</label>
+              <textarea name="comment" id="comment" rows="4" required></textarea>
+            </div>
+            <div class="flex-box">
+              <button type="submit" class="submit-button">Kirim Rating</button>
+            </div>
+          </form>
         </div>
     </div>
     
@@ -103,6 +145,44 @@
                 },
             });
         });
+        // Mendapatkan elemen modal
+        var modal = document.getElementById("ratingModal");
+
+        // Mendapatkan tombol yang membuka modal
+        var btn = document.querySelector(".btn");
+
+        // Mendapatkan elemen <span> yang menutup modal
+        var span = document.getElementsByClassName("close-button")[0];
+
+        // Pastikan modal tidak terbuka saat halaman dimuat (ini penting)
+        document.addEventListener("DOMContentLoaded", function () {
+            modal.style.display = "none"; // Set modal agar tetap tersembunyi saat halaman pertama kali dimuat
+        });
+
+        // Ketika tombol diklik, buka modal
+        btn.onclick = function (event) {
+            event.preventDefault(); // Mencegah aksi default jika tombol adalah link
+            modal.style.display = "block"; // Hanya buka modal saat tombol diklik
+        };
+
+        // Ketika pengguna mengklik <span> (x), tutup modal
+        span.onclick = function () {
+            modal.style.display = "none"; // Tutup modal saat tombol tutup (x) diklik
+        };
+
+        // Ketika pengguna mengklik di luar modal, tutup modal
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none"; // Tutup modal saat pengguna mengklik di luar modal
+            }
+        };
+
+        // Menutup modal setelah form submit
+        document.getElementById("ratingForm").addEventListener("submit", function () {
+            modal.style.display = "none"; // Modal ditutup setelah form dikirim
+        });
+
+        
     </script>
 </body>
 </html>

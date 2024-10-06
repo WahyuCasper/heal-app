@@ -11,10 +11,10 @@ class HasilController extends Controller
         // Ambil data dari session
         $chartData = session('chart_data');
 
-        // Pastikan chartData ada di session
-        if (!$chartData) {
-            return redirect()->route('cek-kesehatan-mental.index')->with('error', 'Tidak ada data untuk ditampilkan.');
-        }
+        // // Pastikan chartData ada di session
+        // if (!$chartData) {
+        //     return redirect()->route('cek-kesehatan-mental.index')->with('error', 'Tidak ada data untuk ditampilkan.');
+        // }
 
         return view('hasil', compact('chartData'));
     }

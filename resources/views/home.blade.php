@@ -60,7 +60,7 @@
 
     <section id="services" class="services">
       <div class="container-services">
-      <h2>Kenapa Harus <span style="color: #4cddeb">Heal</span>?</h2>
+      <h2>Kenapa Harus <span style="color: #4cddeb">HEAL</span>?</h2>
       <div class="features-grid">
         <div class="feature-item">
           <i class="fa fa-brain"></i>
@@ -89,6 +89,54 @@
       </div>
     </section>
 
+    <section id="rating" class="rating">
+      <h2><span style="color: pink">Ulasan</span> & Penilaian</h2>
+      <!-- Tampilkan rata-rata rating -->
+      <div class="rating-summary">
+        <div class="stars">
+          <h3 class="h3-average">{{ $averageRating }}</h3>
+            @for ($i = 1; $i <= 5; $i++)
+                @if ($i <= $averageRating)
+                    <!-- Bintang penuh -->
+                    <i class="fas fa-star" style="color: gold;"></i>
+                @else
+                    <!-- Bintang kosong -->
+                    <i class="far fa-star" style="color: gold;"></i>
+                @endif
+            @endfor
+        </div>
+      </div>
+      <div class="container-flex-review">
+      <div class="reviews-container">
+        @if($ratings->isEmpty())
+            <p>Belum ada rating.</p>
+        @else
+            @foreach($ratings as $rating)
+                <div class="review-card">
+                    <div class="review-header">
+                        <strong class="nama-pengguna">{{ $rating->name }}</strong>
+                        <div class="bintang-pengguna">
+                            @for ($i = 1; $i <= 5; $i++)
+                                @if ($i <= $rating->rating)
+                                    <!-- Bintang penuh -->
+                                    <i class="fas fa-star" style="color: gold;"></i>
+                                @else
+                                    <!-- Bintang kosong -->
+                                    <i class="far fa-star" style="color: gold;"></i>
+                                @endif
+                            @endfor
+                        </div>
+                    </div>
+                    <div class="review-body">
+                        <div class="komen-pengguna">{!! $rating->comment !!}</div>
+                    </div>
+                </div>
+            @endforeach
+        @endif
+      </div>
+      </div>
+    </section>
+        
     <footer>
       <div class="footer-content">
         <p>&copy; 2024 Heal. All rights reserved.</p>

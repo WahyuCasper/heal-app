@@ -211,6 +211,101 @@ nav a:hover {
     color: #666;
 }
 
+/* Style untuk Modal Popup */
+.rating {
+    background-color: #86858559;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 80px 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.rating h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.rating-summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-flex-review::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.container-flex-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: auto;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.reviews-container {
+    margin-top: 20px;
+}
+
+.review-card {
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border: 1px solid #ddd; /* Garis batas */
+    border-radius: 8px; /* Sudut melengkung */
+    padding: 15px; /* Padding di dalam kartu */
+    margin-bottom: 4px; /* Jarak antara kartu */
+    width: 450px;
+    height: 250px;
+}
+
+.review-header {
+    display: flex; /* Gunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Ruang antara elemen */
+    align-items: center; /* Pusatkan secara vertikal */
+}
+
+.nama-pengguna {
+    margin-right: 10px; /* Jarak antara nama dan bintang */
+    font-weight: bold; /* Tebalkan nama pengguna */
+    font-size: 20px;
+}
+
+.bintang-pengguna {
+    display: flex; /* Gunakan flexbox untuk bintang */
+}
+
+.bintang-pengguna i {
+    font-size: 15px;
+}
+
+.review-body {
+    margin-top: 20px; /* Jarak antara header dan body */
+    border: #33333334 solid 1px;
+    height: 75%;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.komen-pengguna {
+    /* Anda bisa menyesuaikan sesuai kebutuhan */
+    margin-top: 10px;
+    font-size: 14px; /* Mengatur ukuran font */
+    max-height: 100px; /* Set batas tinggi untuk komentar */
+    overflow-y: auto; /* Tambahkan scrollbar jika terlalu panjang */
+    overflow-wrap: break-word; /* Memastikan kata panjang terputus */
+}
+
+.stars {
+    display: inline-block;
+    font-size: 45px; /* Ukuran bintang */
+}
+
+.stars i {
+    margin-right: 4px; /* Jarak antar bintang */
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
@@ -398,6 +493,19 @@ section {
         display: flex;
         justify-content: center;
     }
+
+    .bintang-pengguna i {
+        font-size: 15px;
+    }
+
+    .nama-pengguna {
+        font-size: 15px;
+    }
+
+    .review-card {
+        width: 400px;
+        height: 250px;
+    }
 }
 
 /* Tablet styles */
@@ -539,5 +647,35 @@ section {
         color: white;
         margin-top: 5px;
         margin-right: 20px;
+    }
+
+    .container-flex-review::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+
+    .container-flex-review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: auto;
+        height: 600px;
+        margin-top: 20px;
+    }
+
+    .reviews-container {
+        margin-top: 20px;
+        display: grid; /* Menggunakan grid layout */
+        grid-template-columns: repeat(2, 1fr); /* Dua kolom dengan lebar sama */
+        gap: 20px; /* Jarak antar kartu */
+    }
+
+    .review-card {
+        background-color: #f9f9f9; /* Warna latar belakang */
+        border: 1px solid #ddd; /* Garis batas */
+        border-radius: 8px; /* Sudut melengkung */
+        padding: 15px; /* Padding di dalam kartu */
+        margin-bottom: 4px; /* Jarak antara kartu */
+        width: 500px;
+        height: 250px;
     }
 }

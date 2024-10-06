@@ -87,7 +87,7 @@ section {
 }
 
 .team-section h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 36px;
     color: black;
 }
@@ -190,16 +190,25 @@ section {
     border: 1px solid #ddd;
     text-align: center;
     transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .team-card .card-back h2 {
     font-size: 20px; /* Adjusted size */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .team-card .card-back h3 {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 16px;
     color: #007bff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .team-card .card-back p {
@@ -376,6 +385,7 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    height: 450px;
     position: relative;
     text-align: center;
     padding: 10px;

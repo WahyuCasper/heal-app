@@ -41,9 +41,8 @@
     <section class="hero">
       <div class="hero-content">
         <p>
-          HEAL adalah platform berbasis teknologi machine learning yang
-          dirancang untuk mendeteksi dan memberikan solusi kesehatan mental
-          secara anonim dan gratis untuk generasi muda Indonesia.
+          HEAL adalah platform berbasis teknologi machine learning untuk mendeteksi dan memberikan solusi kesehatan mental
+          secara anonim dan gratis untuk generasi muda Indonesia, dan diharapkan dapat mencegah meningkatnya angka bunuh diri pada remaja.
         </p>
       </div>
     </section>
@@ -61,8 +60,7 @@
                   <div class="card-content">
                     <h3>Bulan 1</h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates cupiditate minima cumque totam asperiores possimus.
+                      Tahapan pembuatan website ini diawali dengan diskusi mengenai timeline kegiatan dan prototype <br/>desain website HEAL.
                     </p>
                   </div>
                 </div>
@@ -75,8 +73,7 @@
                   <div class="card-content">
                     <h3>Bulan 2</h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates cupiditate minima cumque totam asperiores possimus.
+                      Website HEAL mulai dibuat dan dijalankan. Setiap kemajuan didiskusikan terkait dengan <br/>sistemnya, hingga selesai.
                     </p>
                   </div>
                 </div>
@@ -89,8 +86,7 @@
                   <div class="card-content">
                     <h3>Bulan 3</h3>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates cupiditate minima cumque totam asperiores possimus.
+                      Website HEAL sudah selesai dibuat dan diuji coba pada mahasiswa yang memiliki gejala depresi serta dilakukan validasi untuk penyusunan hasil riset.   
                     </p>
                   </div>
                 </div>
@@ -122,13 +118,8 @@
               </div>
             </div>
             <div class="card-back">
-              <h2>Wahyu Pratama Lasaleng</h2>
+              <h2>Wahyu Pratama <br/>Lasaleng</h2>
               <h3>Ketua Tim</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -142,17 +133,12 @@
                   alt="Siti Nurmardia Abdussamad"
                 />
                 <div class="gradient-overlay"></div>
-                <div class="name-overlay">Siti Nurmardia Abdussamad</div>
+                <div class="name-overlay">Siti Nurmardia <br/>Abdussamad</div>
               </div>
             </div>
             <div class="card-back">
-              <h2>Siti Nurmardia Abdussamad</h2>
+              <h2>Siti Nurmardia <br/>Abdussamad</h2>
               <h3>Dosen Pendamping</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -167,17 +153,12 @@
                   alt="Mohamad Iswanto Rahman"
                 />
                 <div class="gradient-overlay"></div>
-                <div class="name-overlay">Mohamad Iswanto Rahman</div>
+                <div class="name-overlay">Mohamad <br/>Iswanto Rahman</div>
               </div>
             </div>
             <div class="card-back">
-              <h2>Mohamad Iswanto Rahman</h2>
+              <h2>Mohamad <br/>Iswanto Rahman</h2>
               <h3>Anggota Tim</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -200,11 +181,6 @@
             <div class="card-back">
               <h2>Nadya Pratiwi <br/>Doholio</h2>
               <h3>Anggota Tim</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -222,13 +198,8 @@
               </div>
             </div>
             <div class="card-back">
-              <h2>Putu Ayu Indah Nazwa Usia</h2>
+              <h2>Putu Ayu Indah <br/>Nazwa Usia</h2>
               <h3>Anggota Tim</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -248,11 +219,6 @@
             <div class="card-back">
               <h2>Dwi Putri <br/>Juniar Adam</h2>
               <h3>Anggota Tim</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deleniti neque reprehenderit enim omnis voluptatem nobis, ad
-                quis corporis ullam nemo!
-              </p>
             </div>
           </div>
 
@@ -262,7 +228,7 @@
 
     <footer>
       <div class="footer-content">
-        <p>&copy; 2024 Heal. All rights reserved.</p>
+        <p>&copy; 2024 HEAL. All rights reserved.</p>
         <div class="social-media">
           <a
             href="https://www.instagram.com/pkmrsh_heal?igsh=dGg0Nmw5cGg3enNs"

@@ -10,8 +10,6 @@ class CekKesehatanMentalController extends Controller
 {
     public function index()
     {
-        $sessionId = uniqid();
-        session()->put('session_id', $sessionId);
         return view('cek-kesehatan-mental');
     }
 

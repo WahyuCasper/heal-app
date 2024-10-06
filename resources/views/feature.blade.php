@@ -41,7 +41,7 @@
     <div class="main-content" id="main-content">
       <section class="section-card" id="cek-kesehatan-mental">
         <h2 class="section-title">Cek Kesehatan Mental</h2>
-        <p>
+        <p class="text-justify">
           <span class="content-preview"
             >Fitur "Cek Kesehatan Mental" memungkinkan pengguna untuk mendeteksi kondisi kesehatan mental mereka secara anonim melalui analisis ekspresi wajah.</span
           >
@@ -57,7 +57,7 @@
 
       <section class="section-card" id="curhat-yuk">
         <h2 class="section-title">Curhat Yuk</h2>
-        <p>
+        <p class="text-justify">
           <span class="content-preview"
             >Fitur "Curhat Yuk" menyediakan ruang bagi pengguna untuk mencurahkan isi hati mereka kepada konselor yang sudah disediakan.</span
           >
@@ -73,7 +73,7 @@
 
       <section class="section-card" id="ayo-semangat">
         <h2 class="section-title">Ayo Semangat</h2>
-        <p>
+        <p class="text-justify">
           <span class="content-preview"
             >Fitur "Ayo Semangat" menyediakan video-video motivasi yang dipersonalisasi untuk membantu pengguna yang merasa atau terdeteksi mengalami masalah kesehatan mental.</span
           >

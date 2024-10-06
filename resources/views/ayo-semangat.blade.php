@@ -16,10 +16,10 @@
       <h1>Rekomendasi Tontonan</h1>
 
       <!-- Video Pertama -->
-      <div class="video-container" data-url="https://youtu.be/yjnSX_iUFVo">
+      <div class="video-container" data-url="https://youtu.be/wIiUxN5sE7Y">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/yjnSX_iUFVo/maxresdefault.jpg"
+          src="https://img.youtube.com/vi/wIiUxN5sE7Y/maxresdefault.jpg"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">
@@ -28,10 +28,10 @@
       </div>
 
       <!-- Video Kedua -->
-      <div class="video-container" data-url="https://youtu.be/9hjMIOIysng">
+      <div class="video-container" data-url="https://youtu.be/YX92REB68vI">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/9hjMIOIysng/maxresdefault.jpg"
+          src="aset/image1.png"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">
@@ -40,10 +40,10 @@
       </div>
 
       <!-- Video Ketiga -->
-      <div class="video-container" data-url="https://youtu.be/YIza-jl2Kcs">
+      <div class="video-container" data-url="https://youtu.be/Dx112W4i5I0">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/YIza-jl2Kcs/maxresdefault.jpg"
+          src="https://img.youtube.com/vi/Dx112W4i5I0/maxresdefault.jpg"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">
@@ -52,10 +52,10 @@
       </div>
 
       <!-- Video Keempat -->
-      <div class="video-container" data-url="https://youtu.be/HB8vftGxsIc">
+      <div class="video-container" data-url="https://youtu.be/X_HNPon8Z04">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/HB8vftGxsIc/maxresdefault.jpg"
+          src="https://img.youtube.com/vi/X_HNPon8Z04/maxresdefault.jpg"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">
@@ -64,22 +64,23 @@
       </div>
 
       <!-- Video Kelima -->
-      <div class="video-container" data-url="https://youtu.be/dBFp0Ext0y8">
+      <div class="video-container" data-url="https://vt.tiktok.com/ZS2SSJs9X/">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/dBFp0Ext0y8/maxresdefault.jpg"
+          src="aset/image2.png"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">
           <span class="play-icon">▶</span>
         </div>
       </div>
+      
 
       <!-- Video Keenam -->
-      <div class="video-container" data-url="https://youtu.be/yQovgGalYGo">
+      <div class="video-container" data-url="https://vt.tiktok.com/ZS2SBWHWW/">
         <img
           class="video-thumbnail"
-          src="https://img.youtube.com/vi/yQovgGalYGo/maxresdefault.jpg"
+          src="aset/image3.png"
           alt="Video Thumbnail"
         />
         <div class="video-overlay">

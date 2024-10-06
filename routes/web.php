@@ -9,6 +9,7 @@ use App\Http\Controllers\CurhatYukController;
 use App\Http\Controllers\HasilController;
 use App\Http\Controllers\FiturLainController;
 use App\Http\Controllers\TentangKami;
+use App\Http\Controllers\RatingController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -25,3 +26,6 @@ Route::get('/hasil', [HasilController::class, 'index'])->name('hasil');
 Route::get('/selamat', function () {
     return view('selamat'); // Buat view 'selamat.blade.php' di folder resources/views
 })->name('selamat');
+
+Route::post('/store-rating', [RatingController::class, 'store'])->name('store.rating');
+
