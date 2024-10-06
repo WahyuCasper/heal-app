@@ -73,22 +73,6 @@
         </div>
     </div>
     
-    <div class="card">
-      @if (session('results'))
-      <h2>Hasil Prediksi Ekspresi:</h2>
-      <ul>
-        @foreach (session('results') as $result)
-        <li>{{ $result['photo'] }}: {{ $result['prediction'] }}</li>
-        @endforeach
-      </ul>
-      @endif
-    </div>
-
-    <div class='card'>
-        ini adalah kuisioner :<strong>{{ session('kuisioner') }}</strong><br/>
-        ini adalah svm :<strong>{{ session('svm') }}</strong><br/>
-        ini adalah x/svm+kuisioner:<strong>{{ session('x') }}</strong><br/>
-    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const chartData = {!! json_encode($chartData) !!};

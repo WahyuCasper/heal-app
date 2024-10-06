@@ -336,6 +336,7 @@ nav a:hover {
     background-color: #86858559;
     backdrop-filter: blur(10px);
     text-align: center;
+    margin-top: 0px;
 }
 
 .wrap-timeline h2 {
@@ -601,6 +602,14 @@ nav a:hover {
 
     .team-card.flipped .card-back {
         transform: rotateY(0deg); /* Tampilkan bagian belakang */
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .hero-content {
+        padding: 25px;
     }
 
     .card::after {
